@@ -1,0 +1,27 @@
+✔ every reference has exactly 30 unique civil days and six official times (8.566019ms)
+✔ comparison preserves signed differences and day rollover without modulo (0.233131ms)
+✔ MAE cannot hide early/late cancellation; no data is UNKNOWN, not zero (0.834737ms)
+✔ missing, duplicate, malformed or misattributed references are rejected (14.292992ms)
+✔ real comparison includes 4500 events and separates foreign methodology (215.275629ms)
+✔ Turkey stays UTC+3 across both European DST changes (26.101425ms)
+✔ foreign DST uses target IANA zone at the event instant (1.336252ms)
+✔ civil date arithmetic crosses month/year and leap days without local DST (0.57759ms)
+✔ the date line aligns the solar date with Kiritimati civil date (UTC+14) (0.829309ms)
+✔ host timezones do not change UTC results, including DST transition days (560.258144ms)
+✔ polar day and night expose unavailable events without inventing times (1.424745ms)
+✔ explicit polar estimation keeps next-day Isha visible (1.817247ms)
+✔ high-latitude twilight policy is selectable without changing midday (1.48776ms)
+✔ total offsets are applied once; independent calls cannot mutate defaults (1.681362ms)
+✔ Asr shadow rule and twilight angles affect only intended events (1.403373ms)
+✔ rounding directions bound each event to at most one minute (0.868948ms)
+✔ invalid dates, coordinates, zones and typoed parameters fail explicitly (1.630896ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1112.437267
+TR: 3600/3600, exact=2345, MAE=0.352 min, max=2 min, unavailable=0
+abroad: 900/900, exact=439, MAE=1.189 min, max=7 min, unavailable=0

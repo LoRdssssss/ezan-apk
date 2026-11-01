@@ -23,8 +23,12 @@ jobs:
         with:
           node-version: '24'
           cache: npm
-      - name: Install documentation tools
+      - name: Install dependencies
         run: npm ci
+      - name: Prayer calculation tests
+        run: npm test
+      - name: Reproduce prayer comparison artifacts
+        run: npm run prayer:check
       - name: Markdown lint
         run: npm run lint:md
       - name: Check links

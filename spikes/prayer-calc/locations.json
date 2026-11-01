@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "startDate": "2026-11-01",
+  "days": 30,
+  "coordinateStatus": "HYPOTHESIS: approximate city-centre points selected for the experiment; not verified Diyanet calculation coordinates. Elevation and terrain are not modelled.",
+  "locations": [
+    {
+      "id": "istanbul",
+      "name": "İstanbul",
+      "code": 9541,
+      "latitude": 41.0082,
+      "longitude": 28.9784,
+      "region": "Marmara / kıyı",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "ankara",
+      "name": "Ankara",
+      "code": 9206,
+      "latitude": 39.9334,
+      "longitude": 32.8597,
+      "region": "İç Anadolu / iç",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "izmir",
+      "name": "İzmir",
+      "code": 9560,
+      "latitude": 38.4237,
+      "longitude": 27.1428,
+      "region": "Ege / kıyı",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "bursa",
+      "name": "Bursa",
+      "code": 9335,
+      "latitude": 40.195,
+      "longitude": 29.06,
+      "region": "Marmara / iç",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "edirne",
+      "name": "Edirne",
+      "code": 9419,
+      "latitude": 41.6771,
+      "longitude": 26.5557,
+      "region": "Marmara / batı",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "canakkale",
+      "name": "Çanakkale",
+      "code": 9352,
+      "latitude": 40.1467,
+      "longitude": 26.4086,
+      "region": "Marmara / kıyı",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "mugla",
+      "name": "Muğla",
+      "code": 9747,
+      "latitude": 37.2153,
+      "longitude": 28.3636,
+      "region": "Ege / iç",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "antalya",
+      "name": "Antalya",
+      "code": 9225,
+      "latitude": 36.8969,
+      "longitude": 30.7133,
+      "region": "Akdeniz / kıyı",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "mersin",
+      "name": "Mersin",
+      "code": 9737,
+      "latitude": 36.8121,
+      "longitude": 34.6415,
+      "region": "Akdeniz / kıyı",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "konya",
+      "name": "Konya",
+      "code": 9676,
+      "latitude": 37.8746,
+      "longitude": 32.4932,
+      "region": "İç Anadolu / iç",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "kayseri",
+      "name": "Kayseri",
+      "code": 9620,
+      "latitude": 38.7205,
+      "longitude": 35.4826,
+      "region": "İç Anadolu / yüksek",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "sivas",
+      "name": "Sivas",
+      "code": 9868,
+      "latitude": 39.7505,
+      "longitude": 37.015,
+      "region": "İç Anadolu / yüksek",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "erzurum",
+      "name": "Erzurum",
+      "code": 9451,
+      "latitude": 39.9043,
+      "longitude": 41.2679,
+      "region": "Doğu Anadolu / yüksek",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "kars",
+      "name": "Kars",
+      "code": 9594,
+      "latitude": 40.6013,
+      "longitude": 43.0975,
+      "region": "Doğu Anadolu / yüksek",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "van",
+      "name": "Van",
+      "code": 9930,
+      "latitude": 38.4891,
+      "longitude": 43.4089,
+      "region": "Doğu Anadolu / yüksek",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "hakkari",
+      "name": "Hakkari",
+      "code": 9507,
+      "latitude": 37.5744,
+      "longitude": 43.7408,
+      "region": "Doğu Anadolu / yüksek",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "diyarbakir",
+      "name": "Diyarbakır",
+      "code": 9402,
+      "latitude": 37.9144,
+      "longitude": 40.2306,
+      "region": "Güneydoğu Anadolu / iç",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "sanliurfa",
+      "name": "Şanlıurfa",
+      "code": 9831,
+      "latitude": 37.1674,
+      "longitude": 38.7955,
+      "region": "Güneydoğu Anadolu / iç",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "trabzon",
+      "name": "Trabzon",
+      "code": 9905,
+      "latitude": 41.0027,
+      "longitude": 39.7168,
+      "region": "Karadeniz / kıyı",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "sinop",
+      "name": "Sinop",
+      "code": 9847,
+      "latitude": 42.0264,
+      "longitude": 35.1551,
+      "region": "Karadeniz / kıyı",
+      "country": "TR",
+      "timeZone": "Europe/Istanbul"
+    },
+    {
+      "id": "berlin",
+      "name": "Berlin",
+      "code": 11002,
+      "latitude": 52.52,
+      "longitude": 13.405,
+      "country": "DE",
+      "timeZone": "Europe/Berlin",
+      "region": "Yurt dışı"
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "code": 13976,
+      "latitude": 52.3676,
+      "longitude": 4.9041,
+      "country": "NL",
+      "timeZone": "Europe/Amsterdam",
+      "region": "Yurt dışı"
+    },
+    {
+      "id": "londra",
+      "name": "Londra",
+      "code": 14096,
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "country": "GB",
+      "timeZone": "Europe/London",
+      "region": "Yurt dışı"
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "code": 8903,
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "country": "US",
+      "timeZone": "America/New_York",
+      "region": "Yurt dışı"
+    },
+    {
+      "id": "mekke",
+      "name": "Mekke",
+      "code": 16309,
+      "latitude": 21.4225,
+      "longitude": 39.8262,
+      "country": "SA",
+      "timeZone": "Asia/Riyadh",
+      "region": "Yurt dışı"
+    }
+  ]
+}
