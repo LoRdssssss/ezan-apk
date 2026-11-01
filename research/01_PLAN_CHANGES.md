@@ -12,3 +12,4 @@
 8. İlk sürüm (MVP): vakitler, 1 yıl internetsiz, güvenilir alarm + alarm sağlık ekranı, büyük yazılı ana ekran / basit mod, hadis bildirimi, imsakiye. Widget, kıble, zikir, dua bir sonraki küçük sürümde; Kuran V1'de.
 9. Roller: Claude plan, görev kartları ve günlük denetim; Codex ve Gemini geliştirme. Dini içerik bir ilahiyatçı tarafından onaylanır.
 10. Takvim ve sürdürülebilirlik risk denemesinden sonra yeniden hesaplanır; Ramazan hedef tarih değildir.
+11. Vakit kaynağı (1 Kasım 2026 kararı): Vakitler cihazda hesaplanır (açık kaynak algoritma, Diyanet yöntemine göre ayarlanmış). Diyanet'in kamuya açık resmi vakitleri yalnızca test/doğrulama için karşılaştırma referansıdır. Diyanet API'sine kayıt yapılmaz; Diyanet'e e-posta yayın öncesine ertelendi (`research/SON_YAPILACAKLAR.md`). Vakit kaynağı değiştirilebilir bir modüldür. Madde 1'deki veri hakkı doğrulaması bu nedenle yayın engeli değildir.
