@@ -51,14 +51,15 @@ class LoggerSmokeInstrumentation : Instrumentation() {
             check(cells[5] == formatTime(deviceTime, cells[7]))
             check(cells[8] == MainActivity.TEST_CHANNEL)
             val channel = manager.getNotificationChannel(MainActivity.TEST_CHANNEL)
-            check(cells[10] == channel.sound?.toString().orEmpty())
-            check(cells[11] == channel.shouldVibrate().toString())
+            check(cells[10] == channel.sound?.toString().orEmpty()) { "Sound URI: CSV=${cells[10]}, channel=${channel.sound}" }
+            check(cells[11] == channel.shouldVibrate().toString()) { "Vibration: CSV=${cells[11]}, channel=${channel.shouldVibrate()}" }
             check(cells[13] == channel.importance.toString())
             val evidence = File(app.filesDir, "evidence").apply { mkdirs() }
             File(evidence, "notification.csv").writeText(csv)
             val timing = "CONFIRMED emulator: postTime=${posted.postTime}, deviceTime=$deviceTime, deltaMs=${deviceTime - posted.postTime}, before=$before, after=$after"
             File(evidence, "result.txt").writeText(timing + "\n")
-            // Bring the result into view before capturing the actual emulator screen.
+            // Let the status refresh, then bring the result into view before capture.
+            SystemClock.sleep(600)
             runOnMainSync {
                 val scroll = activity.findViewById<android.view.ViewGroup>(android.R.id.content).getChildAt(0) as android.widget.ScrollView
                 scroll.fullScroll(android.view.View.FOCUS_DOWN)

@@ -13,15 +13,15 @@ class NotificationLoggerService : NotificationListenerService() {
     override fun onListenerDisconnected() { app.listenerConnected = false }
     override fun onDestroy() { app.listenerConnected = false; super.onDestroy() }
 
-    override fun onNotificationPosted(sbn: StatusBarNotification) {
+    override fun onNotificationPosted(sbn: StatusBarNotification, rankingMap: RankingMap) {
         if (!app.recording) return
         val now = System.currentTimeMillis()
         val elapsed = SystemClock.elapsedRealtime()
         val notification = sbn.notification
-        val channel = try {
-            getNotificationChannels(sbn.packageName, sbn.user)
-                .firstOrNull { it.id == notification.channelId }
-        } catch (_: RuntimeException) { null }
+        // Ranking carries the delivered notification's channel for ordinary listeners.
+        // getNotificationChannels(pkg, user) additionally requires companion-device access.
+        val ranking = Ranking()
+        val channel = if (rankingMap.getRanking(sbn.key, ranking)) ranking.channel else null
         app.append(LogEntry(
             event = "notification",
             packageName = sbn.packageName,

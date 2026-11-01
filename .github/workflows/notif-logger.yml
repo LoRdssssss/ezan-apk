@@ -3,7 +3,7 @@ name: Notification logger CI
 on:
   pull_request:
   push:
-    branches: [main, g-2-notif-logger]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
