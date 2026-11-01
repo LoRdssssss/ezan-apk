@@ -19,6 +19,9 @@ Gradle 8.13 dağıtımı SHA-256 ile doğrulanır; araç sürümleri sabittir.
 GitHub Actions `Notification logger CI`, debug APK'yi `notif-logger-debug`,
 birim testleri / lint raporları ve emülatör kanıtını `notif-logger-verification`
 artefaktlarına koyar. Debug APK yalnızca laboratuvar kullanımı içindir.
+Hedef / derleme SDK'sı ölçüm tabanı olarak 35'e sabittir; Play yayını değildir.
+Lint'te yalnızca `OldTargetApi` sürüm tavsiyesi bu nedenle kapalıdır; diğer
+uyarılar hata sayılır. Daha yeni Android sürümleri ayrıca cihazda sınanmalıdır.
 
 ## Telefonda kullanım
 

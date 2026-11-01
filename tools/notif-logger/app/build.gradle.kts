@@ -19,7 +19,12 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions { jvmTarget = "17" }
-    lint { warningsAsErrors = true }
+    lint {
+        warningsAsErrors = true
+        // Lab APK, not a Play release. Keep the API 35 measurement baseline fixed;
+        // SDK packages preinstalled on a runner must not change the lint result.
+        disable += "OldTargetApi"
+    }
 }
 
 dependencies {
