@@ -16,3 +16,12 @@ for name in notification.csv notification.png result.txt; do
   adb exec-out run-as "$package" cat "files/evidence/$name" > "evidence/$name"
 done
 cat evidence/result.txt
+# Also retain synthetic evidence in the job log for environments that cannot
+# download Actions' redirected artifact URLs. No real-device data is used here.
+echo 'CSV_EVIDENCE_BEGIN'
+cat evidence/notification.csv
+echo 'CSV_EVIDENCE_END'
+echo 'PNG_EVIDENCE_BEGIN'
+base64 -w 0 evidence/notification.png
+echo
+echo 'PNG_EVIDENCE_END'
