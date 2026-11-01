@@ -6,6 +6,7 @@ Reklamsız, ücretsiz, Diyanet uyumlu namaz vakti ve ibadet uygulaması (Android
 - Plan değişiklikleri: [`research/01_PLAN_CHANGES.md`](research/01_PLAN_CHANGES.md)
 - Ajan kuralları (Codex, Gemini): [`AGENTS.md`](AGENTS.md)
 - Windows test laboratuvarı: [kurulum kılavuzu](research/01_LAB_SETUP.md)
+- Bildirim / ses ölçüm aracı: [Bildirim Kaydedici](tools/notif-logger/README.md)
 - İçerik izinleri: [lisans kayıtları](docs/LICENSES.md)
 - Araçlar ve paketler: [üçüncü taraf envanteri](docs/THIRD_PARTY.md)
 
