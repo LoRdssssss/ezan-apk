@@ -1,0 +1,23 @@
+{
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**"],
+  "config": {
+    "MD013": false,
+    "MD024": { "siblings_only": true },
+    "MD060": false
+  },
+  "overrides": [
+    {
+      // Keep the existing agent instructions unchanged; lint other rules normally.
+      "filter": ["AGENTS.md"],
+      "combine": "merge",
+      "config": { "MD022": false, "MD032": false }
+    },
+    {
+      // Preserve the original plan's emphasis headings, numbering and examples.
+      "filter": ["research/00_MASTER_PLAN.md"],
+      "combine": "merge",
+      "config": { "MD029": false, "MD036": false, "MD040": false }
+    }
+  ]
+}
