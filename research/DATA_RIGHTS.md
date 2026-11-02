@@ -1,9 +1,12 @@
 # Veri Hakları (Data Rights)
 
+## Güncel karar (01_PLAN_CHANGES madde 11)
+Cihazda hesaplama birincil yöntemdir; Diyanet tabloları yalnız test referansı olarak kullanılır.
+
 ## 1. Diyanet Namaz Vakitleri Verisi
 
 **İddia:** Diyanet namaz vakitleri verisinin API üzerinden yoğun veya ticari olarak çekilmesi kayıt ve taahhüt gerektirir. 1 yıllık önbelleğe alınma ve kendi barındırmamızdan dağıtılma hakkı yazılı onay gerektirir.
-**Durum:** CONFIRMED
+**Durum:** HYPOTHESIS
 **Kaynak / Kanıt:** Diyanet Awqat Salah API İstek ve Taahhüt Formu (<https://awqatsalah.diyanet.gov.tr/files/b8ed95e5-95fc-4635-9c40-406caeeddc1d.pdf>) (Erişim tarihi: 2026-11-01)
 **İletişim Kaynağı:** `dinisleriyk@diyanet.gov.tr` adresi ilgili API taahhütname PDF'inin alt bilgisinde belirtilmiştir (Erişim tarihi: 2026-11-01).
 
@@ -23,11 +26,9 @@
 >
 > Ürünümüzün kesintisiz çalışabilmesi adına mimarimizi netleştirmeden önce şu üç konuda izninizi rica etmekteyiz:
 >
-> 1. Reklamsız ve ücretsiz sunulacak bu uygulamada namaz vakitleri verinizi kullanabilir miyiz?
-> 2. API üzerinden toplu (örneğin 1 yıllık) veriyi çekip, bunu kendi statik sunucularımız (CDN) üzerinden kullanıcılarımıza dağıtabilir miyiz?
-> 3. Kullanıcıların internetsiz ortamlarda da mağdur olmaması adına, bu 1 yıllık vakit verisini kullanıcı cihazında önbellekte tutabilir miyiz?
->
-> Bu kullanım senaryoları "3. kişilerle paylaşmama ve sisteme zarar vermeme" taahhüdünüze uygun mudur?
+> 1. Uygulamamızda vakitleri açık kaynaklı astronomik formüllerle cihazda hesaplamaktayız. Bu vakitleri "Diyanet yöntemine göre" diye tanıtmamız uygun mudur?
+> 2. Kamuya açık yayınladığınız PDF/Excel vakit tablolarını yalnız kendi iç doğruluk testimiz için saklamamız ve açık kaynak kod depomuzda (referans veri olarak) tutmamız uygun mudur?
+> 3. İleride resmi verinizi (cihazda hesaplama yerine) doğrudan kullanarak 1 yıllık çevrimdışı önbellek sunmak istersek, bunun için izlememiz gereken izin yolu nedir?
 >
 > Değerli geri dönüşlerinizi ve yönlendirmenizi arz ederim.
 >
@@ -38,5 +39,5 @@
 
 Diyanet'ten veriyi kendi sunucumuzdan dağıtma ve 1 yıllık saklama izni alınamazsa:
 
-- **Seçenek A: Cihazda hesaplama + resmi tabloyla doğrulama.** Vakitler (açık kaynaklı/bilinen astronomik formüllerle) cihazda hesaplanır ve sadece sapmaları düzeltmek için (delta tablosu) referans veri kullanılır. Artısı: Veri bağımsızlığı ve %100 internetsiz çalışma. Eksisi: Diyanet'in resmi yöntemine tam olarak ulaşmak zordur, milimetrik doğruluk garantisi zordur; geliştirme maliyeti çok yüksektir.
+- **Seçenek A: Cihazda hesaplama + resmi tabloyla doğrulama.** Vakitler (açık kaynaklı/bilinen astronomik formüllerle) cihazda hesaplanır ve sadece sapmaları düzeltmek için (delta tablosu) referans veri kullanılır. Artısı: Veri bağımsızlığı ve %100 internetsiz çalışma. PR #13 ölçümlerine göre Türkiye için MAE (Ortalama Mutlak Hata) 0,35 dakika, maksimum sapma ise 2 dakikadır.
 - **Seçenek B: Uygulamanın doğrudan resmi kaynaktan çekmesi.** Merkezi dağıtım yerine, her mobil uygulama istemcisi Diyanet'in herkese açık servislerinden / API'sinden kendi lokasyonunu sorgular. Artısı: Doğrudan güvenilir resmi veri. Eksisi: Diyanet sunucularına aşırı yük bindirebilir (şartlara aykırı olabilir), uygulama internetsiz kullanılamaz, kullanıcı gizliliği riski oluşur.

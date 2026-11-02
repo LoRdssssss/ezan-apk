@@ -3,7 +3,7 @@
 ## 1. Kuran-ı Kerim Metni ve Mealler
 
 **İddia:** Diyanet meali veya Kuran-ı Kerim metinleri, değiştirilmemek kaydıyla dijital platformlarda kullanılabilir. Mealler telife tabidir.
-**Durum:** REPORTED
+**Durum:** UNKNOWN
 **Kaynak / Kanıt:** 5846 sayılı Fikir ve Sanat Eserleri Kanunu (<https://www.mevzuat.gov.tr/MevzuatMetin/1.3.5846.pdf> - Madde 1, Madde 2 ve Madde 8). Kuran-ı Kerim metni anonim kabul edilmekle beraber Diyanet'in özel hat veya meal çalışmaları yayın hakkına tabidir. Diyanet İşleri Başkanlığı Yayınları eserlerinin kullanımı resmi izin/onay gerektirir (Erişim tarihi: 2026-11-01).
 
 ## 2. Ses Dosyaları (Ezan, Kuran Tilaveti vb.)
