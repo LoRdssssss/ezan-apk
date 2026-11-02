@@ -1,6 +1,7 @@
 # Veri Hakları (Data Rights)
 
 ## Güncel karar (01_PLAN_CHANGES madde 11)
+
 Cihazda hesaplama birincil yöntemdir; Diyanet tabloları yalnız test referansı olarak kullanılır.
 
 ## 1. Diyanet Namaz Vakitleri Verisi
