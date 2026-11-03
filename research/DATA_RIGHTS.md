@@ -15,7 +15,7 @@ Cihazda hesaplama birincil yöntemdir; Diyanet tabloları yalnız test referans�
 
 **Form Şartları Özeti:** Verilen kullanıcı adı ve şifre üçüncü kişilerle paylaşılamaz; sisteme zarar verebilecek isteklerden kaçınılmalıdır.
 
-**Mimarimize Etkisi:** Formdaki "kullanıcı adı ve şifreyi 3. kişilerle paylaşmama" maddesi, ana planımızdaki "sunucu üzerinden 1 yıllık veri çekip kendi barındırmamızdan kullanıcılara dağıtma" mimarisine sorun oluşturabilir. Biz API anahtarımızı değil sadece _veriyi_ dağıtacağız, ancak Diyanet'in bu durumu (verinin yeniden dağıtılmasını) üçüncü kişilerle paylaşım olarak değerlendirip değerlendirmeyeceği belirsizdir. Mimariyi onaylatmak şarttır.
+**Mimarimize Etkisi:** Bu yol artık birincil değil; yalnız ileride resmi veri kullanılırsa geçerli (HYPOTHESIS).
 
 ### Diyanet'e Gönderilecek E-posta Taslağı
 
@@ -40,5 +40,5 @@ Cihazda hesaplama birincil yöntemdir; Diyanet tabloları yalnız test referans�
 
 Diyanet'ten veriyi kendi sunucumuzdan dağıtma ve 1 yıllık saklama izni alınamazsa:
 
-- **Seçenek A: Cihazda hesaplama + resmi tabloyla doğrulama.** Vakitler (açık kaynaklı/bilinen astronomik formüllerle) cihazda hesaplanır ve sadece sapmaları düzeltmek için (delta tablosu) referans veri kullanılır. Artısı: Veri bağımsızlığı ve %100 internetsiz çalışma. PR #13 ölçümlerine göre Türkiye için MAE (Ortalama Mutlak Hata) 0,35 dakika, maksimum sapma ise 2 dakikadır.
+- **Seçenek A: Cihazda hesaplama + resmi tabloyla doğrulama.** Vakitler (açık kaynaklı/bilinen astronomik formüllerle) cihazda hesaplanır. Diyanet tabloları yalnız test/doğrulamada kullanılır, uygulamaya girmez. Artısı: Veri bağımsızlığı ve %100 internetsiz çalışma. PR #13 ölçümlerine göre Türkiye için MAE (Ortalama Mutlak Hata) 0,35 dakika, maksimum sapma ise 2 dakikadır.
 - **Seçenek B: Uygulamanın doğrudan resmi kaynaktan çekmesi.** Merkezi dağıtım yerine, her mobil uygulama istemcisi Diyanet'in herkese açık servislerinden / API'sinden kendi lokasyonunu sorgular. Artısı: Doğrudan güvenilir resmi veri. Eksisi: Diyanet sunucularına aşırı yük bindirebilir (şartlara aykırı olabilir), uygulama internetsiz kullanılamaz, kullanıcı gizliliği riski oluşur.
