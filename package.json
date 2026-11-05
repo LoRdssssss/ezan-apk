@@ -5,11 +5,18 @@
     "node": ">=24 <25"
   },
   "scripts": {
+    "test": "node --test spikes/prayer-calc/*.test.mjs",
+    "prayer:compare": "node spikes/prayer-calc/compare.mjs",
+    "prayer:check": "node spikes/prayer-calc/compare.mjs --check",
+    "prayer:gate": "node spikes/prayer-calc/compare.mjs --check --require-zero",
     "lint:md": "markdownlint-cli2",
     "check:links": "bash research/tools/check-links.sh"
   },
   "devDependencies": {
     "markdown-link-check": "3.15.0",
     "markdownlint-cli2": "0.24.0"
+  },
+  "dependencies": {
+    "adhan": "4.4.6"
   }
 }

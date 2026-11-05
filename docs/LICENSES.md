@@ -17,4 +17,11 @@ koşulları, inceleyen kişi ve onay tarihini içermelidir. Kanıt eksikse
 `UNKNOWN`, yalnızca dış beyan varsa `REPORTED`, kanıt doğrulanmışsa
 `CONFIRMED` kullanılır. Varsayımlar `HYPOTHESIS` olarak ayrılır.
 
-Bu iskelet üçüncü taraf dini içerik, ses veya vakit verisi içermez.
+Uygulama üçüncü taraf dini içerik, ses veya vakit tablosu içermez.
+G-007 karşılaştırmasının kamuya açık Diyanet gözlemleri yalnızca
+`research/data/prayer-ref/` altında test referansıdır;
+[plan değişiklikleri madde 11](../research/01_PLAN_CHANGES.md) bu kullanımı
+ayrı tanımlar ve veri hakkı yazışmasını yayın öncesine erteler.
+Bu karar bir yeniden dağıtım lisansı olarak kaydedilmez; yukarıdaki izin durumu
+`UNKNOWN` kalır. Algoritma paketinin MIT kanıtı
+[üçüncü taraf kaydındadır](THIRD_PARTY.md).

@@ -24,3 +24,20 @@ incelenen uygulamaların içeriklerini yeniden kullanma izni vermez.
 
 Henüz yoktur. Her yeni bağımlılık için ad, tam sürüm, kaynak, lisans kanıtı,
 atıf / dağıtım şartı ve gizlilik etkisi bu kayda eklenmelidir.
+
+## Vakit hesaplama denemesi (G-007)
+
+| Paket | Tam sürüm | Lisans / kanıt | Kaynak | Kullanım ve gizlilik |
+| --- | --- | --- | --- | --- |
+| adhan | 4.4.6 | MIT, [paketle gelen tam lisans](licenses/adhan-4.4.6.txt) | [npm sürüm kaydı](https://registry.npmjs.org/adhan/4.4.6), [resmi depo](https://github.com/batoulapps/adhan-js) | Yerel astronomik hesap; çalışma zamanı geçişli bağımlılığı yok; ağ çağrısı/telemetri yok |
+
+CONFIRMED (1 Kasım 2026): Kurulan npm paketinin `LICENSE` dosyası okunup
+yukarıdaki kanıt dosyasına değiştirilmeden alındı. MIT; ticari kullanıma,
+değiştirmeye ve dağıtıma izin verir; telif ve izin metni kopyalarda korunur.
+Hak sahibi: Copyright (c) 2016 Batoul Apps. İleride uygulama paketine alınırsa
+aynı bildirim paketle birlikte dağıtılır. Sürüm/bütünlük `package-lock.json` içindedir.
+
+Bu lisans algoritma paketini kapsar. Diyanet referans tablolarına veya diğer
+dini içeriklere lisans vermez. Resmi tabloların test kullanımı
+[plan değişiklikleri madde 11](../research/01_PLAN_CHANGES.md) ve
+[referans veri kılavuzu](../research/data/prayer-ref/README.md) kapsamında ayrıdır.

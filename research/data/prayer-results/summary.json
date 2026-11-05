@@ -1,0 +1,2409 @@
+{
+  "schemaVersion": 1,
+  "startDate": "2026-11-01",
+  "days": 30,
+  "config": {
+    "fajrAngle": 18,
+    "ishaAngle": 17,
+    "madhab": "Shafi",
+    "highLatitudeRule": "MiddleOfTheNight",
+    "polarCircleResolution": "Unresolved",
+    "rounding": "nearest",
+    "adjustments": {
+      "fajr": 0,
+      "sunrise": -7,
+      "dhuhr": 5,
+      "asr": 4,
+      "maghrib": 7,
+      "isha": 0
+    }
+  },
+  "groups": {
+    "TR": {
+      "count": 3600,
+      "exact": 2345,
+      "mean": -0.27111111111111114,
+      "mae": 0.3522222222222222,
+      "maxAbs": 2,
+      "min": -2,
+      "max": 1,
+      "expected": 3600,
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 600,
+          "exact": 575,
+          "mean": 0.03166666666666667,
+          "mae": 0.041666666666666664,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 600,
+          "exact": 496,
+          "mean": 0.17333333333333334,
+          "mae": 0.17333333333333334,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 600,
+          "exact": 576,
+          "mean": 0.02666666666666667,
+          "mae": 0.04,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 1
+        },
+        "asr": {
+          "count": 600,
+          "exact": 92,
+          "mean": -0.8683333333333333,
+          "mae": 0.8683333333333333,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 600,
+          "exact": 300,
+          "mean": -0.5,
+          "mae": 0.5,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 600,
+          "exact": 306,
+          "mean": -0.49,
+          "mae": 0.49,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      }
+    },
+    "abroad": {
+      "count": 900,
+      "exact": 439,
+      "mean": 0.48,
+      "mae": 1.1888888888888889,
+      "maxAbs": 7,
+      "min": -2,
+      "max": 7,
+      "expected": 900,
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 150,
+          "exact": 115,
+          "mean": 0.23333333333333334,
+          "mae": 0.23333333333333334,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 150,
+          "exact": 94,
+          "mean": 0.37333333333333335,
+          "mae": 0.37333333333333335,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 150,
+          "exact": 146,
+          "mean": 0.02666666666666667,
+          "mae": 0.02666666666666667,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 150,
+          "exact": 9,
+          "mean": -1.3933333333333333,
+          "mae": 1.3933333333333333,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 150,
+          "exact": 50,
+          "mean": -0.7,
+          "mae": 0.7,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "isha": {
+          "count": 150,
+          "exact": 25,
+          "mean": 4.34,
+          "mae": 4.406666666666666,
+          "maxAbs": 7,
+          "min": -1,
+          "max": 7
+        }
+      }
+    }
+  },
+  "locations": [
+    {
+      "id": "istanbul",
+      "name": "İstanbul",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9541/istanbul-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 25,
+          "mean": 0.16666666666666666,
+          "mae": 0.16666666666666666,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 2,
+          "mean": -0.9666666666666667,
+          "mae": 0.9666666666666667,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 12,
+          "mean": -0.6,
+          "mae": 0.6,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 18,
+          "mean": -0.4,
+          "mae": 0.4,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 117,
+        "mean": -0.3,
+        "mae": 0.35555555555555557,
+        "maxAbs": 2,
+        "min": -2,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 148,
+        "mean": 0.03333333333333333,
+        "mae": 0.17777777777777778,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "ankara",
+      "name": "Ankara",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9206/ankara-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 28,
+          "mean": 0.06666666666666667,
+          "mae": 0.06666666666666667,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 26,
+          "mean": 0.13333333333333333,
+          "mae": 0.13333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 30,
+          "exact": 5,
+          "mean": -0.9333333333333333,
+          "mae": 0.9333333333333333,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 10,
+          "mean": -0.6666666666666666,
+          "mae": 0.6666666666666666,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 18,
+          "mean": -0.4,
+          "mae": 0.4,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 116,
+        "mean": -0.29444444444444445,
+        "mae": 0.37222222222222223,
+        "maxAbs": 2,
+        "min": -2,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 143,
+        "mean": 0.03888888888888889,
+        "mae": 0.20555555555555555,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "izmir",
+      "name": "İzmir",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9560/izmir-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 22,
+          "mean": 0.26666666666666666,
+          "mae": 0.26666666666666666,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 30,
+          "exact": 6,
+          "mean": -0.8333333333333334,
+          "mae": 0.8333333333333334,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 19,
+          "mean": -0.36666666666666664,
+          "mae": 0.36666666666666664,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 17,
+          "mean": -0.43333333333333335,
+          "mae": 0.43333333333333335,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 122,
+        "mean": -0.21666666666666667,
+        "mae": 0.3277777777777778,
+        "maxAbs": 2,
+        "min": -2,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 0,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 139,
+        "mean": -0.05,
+        "mae": 0.22777777777777777,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "bursa",
+      "name": "Bursa",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9335/bursa-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 21,
+          "mean": 0.3,
+          "mae": 0.3,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 30,
+          "exact": 4,
+          "mean": -0.9,
+          "mae": 0.9,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 18,
+          "mean": -0.4,
+          "mae": 0.4,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 16,
+          "mean": -0.4666666666666667,
+          "mae": 0.4666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 117,
+        "mean": -0.23333333333333334,
+        "mae": 0.35555555555555557,
+        "maxAbs": 2,
+        "min": -2,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 0,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 138,
+        "mean": -0.06666666666666667,
+        "mae": 0.23333333333333334,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "edirne",
+      "name": "Edirne",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9419/edirne-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 24,
+          "mean": 0.2,
+          "mae": 0.2,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 3,
+          "mean": -0.9666666666666667,
+          "mae": 0.9666666666666667,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 12,
+          "mean": -0.6,
+          "mae": 0.6,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 12,
+          "mean": -0.6,
+          "mae": 0.6,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 110,
+        "mean": -0.32222222222222224,
+        "mae": 0.4,
+        "maxAbs": 2,
+        "min": -2,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": 1
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 144,
+        "mean": 0.17777777777777778,
+        "mae": 0.2,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "canakkale",
+      "name": "Çanakkale",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9352/canakkale-namaz-vakitleri",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 26,
+          "mean": 0.13333333333333333,
+          "mae": 0.13333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 24,
+          "mean": 0.2,
+          "mae": 0.2,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 30,
+          "exact": 2,
+          "mean": -0.9333333333333333,
+          "mae": 0.9333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 14,
+          "mean": -0.5333333333333333,
+          "mae": 0.5333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 13,
+          "mean": -0.5666666666666667,
+          "mae": 0.5666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 108,
+        "mean": -0.2777777777777778,
+        "mae": 0.4,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": 1
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 140,
+        "mean": 0.2222222222222222,
+        "mae": 0.2222222222222222,
+        "maxAbs": 1,
+        "min": 0,
+        "max": 1
+      }
+    },
+    {
+      "id": "mugla",
+      "name": "Muğla",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9747/mugla-namaz-vakitleri",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 28,
+          "mean": 0.06666666666666667,
+          "mae": 0.06666666666666667,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 18,
+          "mean": 0.4,
+          "mae": 0.4,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 8,
+          "mean": -0.7666666666666667,
+          "mae": 0.7666666666666667,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 13,
+          "mean": -0.5666666666666667,
+          "mae": 0.5666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 17,
+          "mean": -0.43333333333333335,
+          "mae": 0.43333333333333335,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 114,
+        "mean": -0.21666666666666667,
+        "mae": 0.37222222222222223,
+        "maxAbs": 2,
+        "min": -2,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 131,
+        "mean": 0.11666666666666667,
+        "mae": 0.2722222222222222,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "antalya",
+      "name": "Antalya",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9225/antalya-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 28,
+          "mean": -0.06666666666666667,
+          "mae": 0.06666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 2,
+          "mean": -1,
+          "mae": 1,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 10,
+          "mean": -0.6666666666666666,
+          "mae": 0.6666666666666666,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 13,
+          "mean": -0.5666666666666667,
+          "mae": 0.5666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 113,
+        "mean": -0.38333333333333336,
+        "mae": 0.38333333333333336,
+        "maxAbs": 2,
+        "min": -2,
+        "max": 0
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": 1
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 151,
+        "mean": 0.11666666666666667,
+        "mae": 0.16111111111111112,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "mersin",
+      "name": "Mersin",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9737/mersin-namaz-vakitleri",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 22,
+          "mean": 0.26666666666666666,
+          "mae": 0.26666666666666666,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 30,
+          "exact": 5,
+          "mean": -0.8333333333333334,
+          "mae": 0.8333333333333334,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 18,
+          "mean": -0.4,
+          "mae": 0.4,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 15,
+          "mean": -0.5,
+          "mae": 0.5,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 118,
+        "mean": -0.23333333333333334,
+        "mae": 0.34444444444444444,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 0,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 138,
+        "mean": -0.06666666666666667,
+        "mae": 0.23333333333333334,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "konya",
+      "name": "Konya",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9676/konya-namaz-vakitleri",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 28,
+          "mean": 0.06666666666666667,
+          "mae": 0.06666666666666667,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 23,
+          "mean": 0.23333333333333334,
+          "mae": 0.23333333333333334,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 30,
+          "exact": 8,
+          "mean": -0.7333333333333333,
+          "mae": 0.7333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 14,
+          "mean": -0.5333333333333333,
+          "mae": 0.5333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 16,
+          "mean": -0.4666666666666667,
+          "mae": 0.4666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 118,
+        "mean": -0.23333333333333334,
+        "mae": 0.34444444444444444,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 134,
+        "mean": 0.1,
+        "mae": 0.25555555555555554,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "kayseri",
+      "name": "Kayseri",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9620/kayseri-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 27,
+          "mean": 0.1,
+          "mae": 0.1,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 27,
+          "mean": 0.1,
+          "mae": 0.1,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 7,
+          "mean": -0.7666666666666667,
+          "mae": 0.7666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 17,
+          "mean": -0.43333333333333335,
+          "mae": 0.43333333333333335,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 14,
+          "mean": -0.5333333333333333,
+          "mae": 0.5333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 122,
+        "mean": -0.25555555555555554,
+        "mae": 0.32222222222222224,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 0,
+        "isha": 1
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 140,
+        "mean": 0.07777777777777778,
+        "mae": 0.2222222222222222,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "sivas",
+      "name": "Sivas",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9868/sivas-namaz-vakitleri",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 28,
+          "mean": 0.06666666666666667,
+          "mae": 0.06666666666666667,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 22,
+          "mean": 0.26666666666666666,
+          "mae": 0.26666666666666666,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 24,
+          "mean": 0.2,
+          "mae": 0.2,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 30,
+          "exact": 6,
+          "mean": -0.8333333333333334,
+          "mae": 0.8333333333333334,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 21,
+          "mean": -0.3,
+          "mae": 0.3,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 13,
+          "mean": -0.5666666666666667,
+          "mae": 0.5666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 114,
+        "mean": -0.19444444444444445,
+        "mae": 0.37222222222222223,
+        "maxAbs": 2,
+        "min": -2,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 0,
+        "isha": 1
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 135,
+        "mean": 0.1388888888888889,
+        "mae": 0.25,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "erzurum",
+      "name": "Erzurum",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9451/erzurum-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 25,
+          "mean": 0.16666666666666666,
+          "mae": 0.16666666666666666,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 26,
+          "mean": 0.13333333333333333,
+          "mae": 0.13333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 30,
+          "exact": 7,
+          "mean": -0.7666666666666667,
+          "mae": 0.7666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 16,
+          "mean": -0.4666666666666667,
+          "mae": 0.4666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 18,
+          "mean": -0.4,
+          "mae": 0.4,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 121,
+        "mean": -0.21666666666666667,
+        "mae": 0.3277777777777778,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 0,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 137,
+        "mean": -0.05,
+        "mae": 0.2388888888888889,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "kars",
+      "name": "Kars",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9594/kars-namaz-vakitleri",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 26,
+          "mean": 0.13333333333333333,
+          "mae": 0.13333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 28,
+          "mean": 0.06666666666666667,
+          "mae": 0.06666666666666667,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 30,
+          "exact": 4,
+          "mean": -0.8666666666666667,
+          "mae": 0.8666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 18,
+          "mean": -0.4,
+          "mae": 0.4,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 13,
+          "mean": -0.5666666666666667,
+          "mae": 0.5666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 119,
+        "mean": -0.2722222222222222,
+        "mae": 0.3388888888888889,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 0,
+        "isha": 1
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 145,
+        "mean": 0.06111111111111111,
+        "mae": 0.19444444444444445,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "van",
+      "name": "Van",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9930/van-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 29,
+          "mean": -0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 28,
+          "mean": -0.06666666666666667,
+          "mae": 0.06666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 3,
+          "mean": -0.9,
+          "mae": 0.9,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 19,
+          "mean": -0.36666666666666664,
+          "mae": 0.36666666666666664,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 14,
+          "mean": -0.5333333333333333,
+          "mae": 0.5333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 122,
+        "mean": -0.3111111111111111,
+        "mae": 0.32222222222222224,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 0,
+        "isha": 1
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 148,
+        "mean": 0.022222222222222223,
+        "mae": 0.17777777777777778,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "hakkari",
+      "name": "Hakkari",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9507/hakkari-namaz-vakitleri",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 28,
+          "mean": 0.06666666666666667,
+          "mae": 0.06666666666666667,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 3,
+          "mean": -0.9,
+          "mae": 0.9,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 17,
+          "mean": -0.43333333333333335,
+          "mae": 0.43333333333333335,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 19,
+          "mean": -0.36666666666666664,
+          "mae": 0.36666666666666664,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 127,
+        "mean": -0.2722222222222222,
+        "mae": 0.29444444444444445,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 0,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 151,
+        "mean": -0.10555555555555556,
+        "mae": 0.16111111111111112,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "diyarbakir",
+      "name": "Diyarbakır",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9402/diyarbakir-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 26,
+          "mean": 0.13333333333333333,
+          "mae": 0.13333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 7,
+          "mean": -0.7666666666666667,
+          "mae": 0.7666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 14,
+          "mean": -0.5333333333333333,
+          "mae": 0.5333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 17,
+          "mean": -0.43333333333333335,
+          "mae": 0.43333333333333335,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 124,
+        "mean": -0.26666666666666666,
+        "mae": 0.3111111111111111,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 142,
+        "mean": 0.06666666666666667,
+        "mae": 0.2111111111111111,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "sanliurfa",
+      "name": "Şanlıurfa",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9831/sanliurfa-namaz-vakitleri",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 26,
+          "mean": 0.13333333333333333,
+          "mae": 0.13333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 29,
+          "mean": -0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 5,
+          "mean": -0.8333333333333334,
+          "mae": 0.8333333333333334,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 14,
+          "mean": -0.5333333333333333,
+          "mae": 0.5333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 17,
+          "mean": -0.43333333333333335,
+          "mae": 0.43333333333333335,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 120,
+        "mean": -0.2777777777777778,
+        "mae": 0.3333333333333333,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 142,
+        "mean": 0.05555555555555555,
+        "mae": 0.2111111111111111,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "trabzon",
+      "name": "Trabzon",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9905/trabzon-namaz-vakitleri",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 28,
+          "mean": 0.06666666666666667,
+          "mae": 0.06666666666666667,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 29,
+          "mean": -0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 3,
+          "mean": -0.9333333333333333,
+          "mae": 0.9333333333333333,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 12,
+          "mean": -0.6,
+          "mae": 0.6,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 10,
+          "mean": -0.6666666666666666,
+          "mae": 0.6666666666666666,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 112,
+        "mean": -0.3611111111111111,
+        "mae": 0.38333333333333336,
+        "maxAbs": 2,
+        "min": -2,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": 1
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 151,
+        "mean": 0.1388888888888889,
+        "mae": 0.16111111111111112,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "sinop",
+      "name": "Sinop",
+      "country": "TR",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9847/sinop-namaz-vakitleri",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 29,
+          "mean": 0.03333333333333333,
+          "mae": 0.03333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 24,
+          "mean": 0.2,
+          "mae": 0.2,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 28,
+          "mean": 0.06666666666666667,
+          "mae": 0.06666666666666667,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 30,
+          "exact": 2,
+          "mean": -0.9333333333333333,
+          "mae": 0.9333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 12,
+          "mean": -0.6,
+          "mae": 0.6,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 16,
+          "mean": -0.4666666666666667,
+          "mae": 0.4666666666666667,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 111,
+        "mean": -0.2833333333333333,
+        "mae": 0.38333333333333336,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 143,
+        "mean": 0.05,
+        "mae": 0.20555555555555555,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "berlin",
+      "name": "Berlin",
+      "country": "DE",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11002/berlin-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 23,
+          "mean": 0.23333333333333334,
+          "mae": 0.23333333333333334,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 21,
+          "mean": 0.3,
+          "mae": 0.3,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 0,
+          "mean": -1.7,
+          "mae": 1.7,
+          "maxAbs": 2,
+          "min": -2,
+          "max": -1
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 2,
+          "mean": -0.9666666666666667,
+          "mae": 0.9666666666666667,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 0,
+          "mean": 5.6,
+          "mae": 5.6,
+          "maxAbs": 7,
+          "min": 5,
+          "max": 7
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 76,
+        "mean": 0.5777777777777777,
+        "mae": 1.4666666666666666,
+        "maxAbs": 7,
+        "min": -2,
+        "max": 7
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 2,
+        "maghrib": 1,
+        "isha": -6
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 136,
+        "mean": 0.07777777777777778,
+        "mae": 0.24444444444444444,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "country": "NL",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/en-US/13976/amsterdam-prayer-times",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 25,
+          "mean": 0.16666666666666666,
+          "mae": 0.16666666666666666,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 17,
+          "mean": 0.43333333333333335,
+          "mae": 0.43333333333333335,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 0,
+          "mean": -1.8333333333333333,
+          "mae": 1.8333333333333333,
+          "maxAbs": 2,
+          "min": -2,
+          "max": -1
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 2,
+          "mean": -1.0666666666666667,
+          "mae": 1.0666666666666667,
+          "maxAbs": 2,
+          "min": -2,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 0,
+          "mean": 5.733333333333333,
+          "mae": 5.733333333333333,
+          "maxAbs": 7,
+          "min": 5,
+          "max": 7
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 74,
+        "mean": 0.5722222222222222,
+        "mae": 1.538888888888889,
+        "maxAbs": 7,
+        "min": -2,
+        "max": 7
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 2,
+        "maghrib": 1,
+        "isha": -6
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 141,
+        "mean": 0.07222222222222222,
+        "mae": 0.21666666666666667,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "londra",
+      "name": "Londra",
+      "country": "GB",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/14096/londra-namaz-vakitleri",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 17,
+          "mean": 0.43333333333333335,
+          "mae": 0.43333333333333335,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 13,
+          "mean": 0.5666666666666667,
+          "mae": 0.5666666666666667,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 26,
+          "mean": 0.13333333333333333,
+          "mae": 0.13333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "asr": {
+          "count": 30,
+          "exact": 0,
+          "mean": -1.4333333333333333,
+          "mae": 1.4333333333333333,
+          "maxAbs": 2,
+          "min": -2,
+          "max": -1
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 11,
+          "mean": -0.6333333333333333,
+          "mae": 0.6333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 0,
+          "mean": 5.8,
+          "mae": 5.8,
+          "maxAbs": 7,
+          "min": 5,
+          "max": 7
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 67,
+        "mean": 0.8111111111111111,
+        "mae": 1.5,
+        "maxAbs": 7,
+        "min": -2,
+        "max": 7
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": -1,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": -6
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 118,
+        "mean": -0.022222222222222223,
+        "mae": 0.34444444444444444,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "country": "US",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/tr-TR/8903/new-york-icin-namaz-vakti",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 20,
+          "mean": 0.3333333333333333,
+          "mae": 0.3333333333333333,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 13,
+          "mean": 0.5666666666666667,
+          "mae": 0.5666666666666667,
+          "maxAbs": 1,
+          "min": 0,
+          "max": 1
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 0,
+          "mean": -1.3,
+          "mae": 1.3,
+          "maxAbs": 2,
+          "min": -2,
+          "max": -1
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 9,
+          "mean": -0.7,
+          "mae": 0.7,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 0,
+          "mean": 4.733333333333333,
+          "mae": 4.733333333333333,
+          "maxAbs": 6,
+          "min": 4,
+          "max": 6
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 72,
+        "mean": 0.6055555555555555,
+        "mae": 1.2722222222222221,
+        "maxAbs": 6,
+        "min": -2,
+        "max": 6
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": -1,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 1,
+        "isha": -5
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 129,
+        "mean": -0.06111111111111111,
+        "mae": 0.2833333333333333,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    },
+    {
+      "id": "mekke",
+      "name": "Mekke",
+      "country": "SA",
+      "sourceUrl": "https://namazvakitleri.diyanet.gov.tr/en-US/16309/mekke-prayer-times",
+      "accessedAt": "2026-11-01T19:03:12Z",
+      "unavailable": 0,
+      "prayers": {
+        "fajr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "sunrise": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "dhuhr": {
+          "count": 30,
+          "exact": 30,
+          "mean": 0,
+          "mae": 0,
+          "maxAbs": 0,
+          "min": 0,
+          "max": 0
+        },
+        "asr": {
+          "count": 30,
+          "exact": 9,
+          "mean": -0.7,
+          "mae": 0.7,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "maghrib": {
+          "count": 30,
+          "exact": 26,
+          "mean": -0.13333333333333333,
+          "mae": 0.13333333333333333,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        },
+        "isha": {
+          "count": 30,
+          "exact": 25,
+          "mean": -0.16666666666666666,
+          "mae": 0.16666666666666666,
+          "maxAbs": 1,
+          "min": -1,
+          "max": 0
+        }
+      },
+      "total": {
+        "count": 180,
+        "exact": 150,
+        "mean": -0.16666666666666666,
+        "mae": 0.16666666666666666,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 0
+      },
+      "suggestedExtraMinutes": {
+        "fajr": 0,
+        "sunrise": 0,
+        "dhuhr": 0,
+        "asr": 1,
+        "maghrib": 0,
+        "isha": 0
+      },
+      "diagnosticResidual": {
+        "count": 180,
+        "exact": 162,
+        "mean": 0,
+        "mae": 0.1,
+        "maxAbs": 1,
+        "min": -1,
+        "max": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+
+> check:links
+> bash research/tools/check-links.sh
+
+
+FILE: AGENTS.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: README.md
+  [✓] research/00_MASTER_PLAN.md
+  [✓] research/01_PLAN_CHANGES.md
+  [✓] AGENTS.md
+  [✓] research/01_LAB_SETUP.md
+  [✓] docs/LICENSES.md
+  [✓] docs/THIRD_PARTY.md
+  [✓] spikes/prayer-calc/README.md
+  [✓] research/07_PRAYER_TIME_ACCURACY.md
+  [✓] research/README.md
+  [✓] design/README.md
+  [✓] app/README.md
+  [✓] native/android/README.md
+  [✓] native/ios/README.md
+  [✓] content/README.md
+  [✓] server/README.md
+  [✓] docs/README.md
+
+  16 links checked.
+
+FILE: app/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: content/README.md
+  [✓] ../docs/LICENSES.md
+
+  1 link checked.
+
+FILE: design/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: docs/LICENSES.md
+  [✓] ../research/01_PLAN_CHANGES.md
+  [✓] THIRD_PARTY.md
+
+  2 links checked.
+
+FILE: docs/README.md
+  [✓] LICENSES.md
+  [✓] THIRD_PARTY.md
+
+  2 links checked.
+
+FILE: docs/THIRD_PARTY.md
+  [✓] https://github.com/DavidAnson/markdownlint-cli2
+  [✓] https://github.com/tcort/markdown-link-check
+  [✓] https://github.com/actions/checkout
+  [✓] https://github.com/actions/setup-node
+  [✓] ../research/01_LAB_SETUP.md
+  [✓] licenses/adhan-4.4.6.txt
+  [✓] https://registry.npmjs.org/adhan/4.4.6
+  [✓] https://github.com/batoulapps/adhan-js
+  [✓] ../research/01_PLAN_CHANGES.md
+  [✓] ../research/data/prayer-ref/README.md
+
+  10 links checked.
+
+FILE: native/android/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: native/ios/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: research/00_MASTER_PLAN.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: research/01_LAB_SETUP.md
+  [✓] https://learn.microsoft.com/java/openjdk/download
+  [✓] https://developer.android.com/tools/releases/platform-tools
+  [✓] https://dl.google.com/android/repository/platform-tools-latest-windows.zip
+  [✓] https://developer.android.com/tools/adb
+  [✓] https://developer.android.com/studio/debug/dev-options
+  [✓] https://developer.android.com/studio/run/oem-usb
+  [✓] https://developer.samsung.com/android-usb-driver
+  [✓] https://github.com/Genymobile/scrcpy/blob/master/doc/windows.md
+  [✓] https://github.com/Genymobile/scrcpy/releases/latest
+  [✓] https://docs.maestro.dev/maestro-cli/how-to-install-maestro-cli
+  [✓] https://github.com/mobile-dev-inc/maestro#getting-started
+  [✓] https://github.com/mobile-dev-inc/maestro/releases
+  [✓] 01_PLAN_CHANGES.md
+
+  13 links checked.
+
+FILE: research/01_PLAN_CHANGES.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: research/07_PRAYER_TIME_ACCURACY.md
+  [✖] https://www.diyanet.gov.tr/icerik/8092
+  [✖] https://vakithesaplama.diyanet.gov.tr/temkin.php
+  [✓] https://registry.npmjs.org/adhan/4.4.6
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9541/istanbul-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9206/ankara-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9560/izmir-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9335/bursa-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9419/edirne-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9352/canakkale-namaz-vakitleri
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9747/mugla-namaz-vakitleri
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9225/antalya-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9737/mersin-namaz-vakitleri
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9676/konya-namaz-vakitleri
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9620/kayseri-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9868/sivas-namaz-vakitleri
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9451/erzurum-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9594/kars-namaz-vakitleri
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9930/van-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9507/hakkari-namaz-vakitleri
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9402/diyarbakir-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9831/sanliurfa-namaz-vakitleri
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9905/trabzon-namaz-vakitleri
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9847/sinop-namaz-vakitleri
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/11002/berlin-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/en-US/13976/amsterdam-prayer-times
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/14096/londra-namaz-vakitleri
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/8903/new-york-icin-namaz-vakti
+  [✖] https://namazvakitleri.diyanet.gov.tr/en-US/16309/mekke-prayer-times
+  [✓] data/prayer-ref/README.md
+  [✓] data/prayer-results/summary.json
+  [✓] data/prayer-results/differences.csv
+  [✓] ../spikes/prayer-calc/README.md
+  [✓] evidence/prayer-calc-test-run.txt
+  [✓] evidence/prayer-calc-network.txt
+  [✓] evidence/prayer-calc-links.txt
+
+  35 links checked.
+
+  ERROR: 27 dead links found!
+  [✖] https://www.diyanet.gov.tr/icerik/8092 → Status: 403
+  [✖] https://vakithesaplama.diyanet.gov.tr/temkin.php → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9541/istanbul-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9206/ankara-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9560/izmir-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9335/bursa-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9419/edirne-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9352/canakkale-namaz-vakitleri → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9747/mugla-namaz-vakitleri → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9225/antalya-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9737/mersin-namaz-vakitleri → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9676/konya-namaz-vakitleri → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9620/kayseri-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9868/sivas-namaz-vakitleri → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9451/erzurum-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9594/kars-namaz-vakitleri → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9930/van-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9507/hakkari-namaz-vakitleri → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9402/diyarbakir-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9831/sanliurfa-namaz-vakitleri → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9905/trabzon-namaz-vakitleri → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/9847/sinop-namaz-vakitleri → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/11002/berlin-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/en-US/13976/amsterdam-prayer-times → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/14096/londra-namaz-vakitleri → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/tr-TR/8903/new-york-icin-namaz-vakti → Status: 403
+  [✖] https://namazvakitleri.diyanet.gov.tr/en-US/16309/mekke-prayer-times → Status: 403
+
+FILE: research/README.md
+  [✓] 00_MASTER_PLAN.md
+  [✓] 01_PLAN_CHANGES.md
+  [✓] 01_LAB_SETUP.md
+  [✓] data/README.md
+  [✓] evidence/README.md
+  [✓] tools/README.md
+  [✓] 07_PRAYER_TIME_ACCURACY.md
+
+  7 links checked.
+
+FILE: research/SON_YAPILACAKLAR.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: research/data/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: research/data/prayer-ref/README.md
+  [✓] ../../01_PLAN_CHANGES.md
+  [✓] ../../../docs/LICENSES.md
+  [✓] ../../../spikes/prayer-calc/locations.json
+  [✓] ../../07_PRAYER_TIME_ACCURACY.md
+  [✓] ../prayer-results/summary.json
+  [✓] ../prayer-results/differences.csv
+
+  6 links checked.
+
+FILE: research/evidence/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: research/tools/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: server/README.md
+  No hyperlinks found!
+
+  0 links checked.
+
+FILE: spikes/prayer-calc/README.md
+  [✓] ../../docs/THIRD_PARTY.md
+  [✓] ../../research/07_PRAYER_TIME_ACCURACY.md
+  [✓] locations.json
+  [✓] ../../research/data/prayer-ref/README.md
+  [✓] ../../docs/licenses/adhan-4.4.6.txt
+  [✓] ../../research/evidence/prayer-calc-test-run.txt
+  [✓] ../../research/evidence/prayer-calc-network.txt
+
+  7 links checked.
+Checked 22 Markdown documents.

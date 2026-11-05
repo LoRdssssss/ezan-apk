@@ -1,0 +1,297 @@
+978   getpeername(0, 0x7fff21b54e00, [16]) = -1 ENOTSOCK (Socket operation on non-socket)
+980   socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [21, 22]) = 0
+980   setsockopt(21, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(21, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+980   setsockopt(22, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(22, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+980   socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [23, 24]) = 0
+980   setsockopt(23, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(23, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+980   setsockopt(24, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(24, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+980   socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [25, 26]) = 0
+980   setsockopt(25, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(25, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+980   setsockopt(26, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(26, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+997   getsockname(0, {sa_family=AF_UNIX}, [128 => 2]) = 0
+997   getsockopt(0, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+997   getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+997   getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+997   getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+997   getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+997   getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+997   getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+997   getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+997   getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+997   getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+997   getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+997   getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+997   getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1000  +++ exited with 0 +++
+1001  +++ exited with 0 +++
+1003  +++ exited with 0 +++
+1002  +++ exited with 0 +++
+999   +++ exited with 0 +++
+1004  +++ exited with 0 +++
+997   +++ exited with 0 +++
+980   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=997, si_uid=1000, si_status=0, si_utime=25 /* 0.25 s */, si_stime=9 /* 0.09 s */} ---
+980   shutdown(25, SHUT_WR)             = 0
+980   shutdown(23, SHUT_WR)             = 0
+980   socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [21, 22]) = 0
+980   setsockopt(21, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(21, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+980   setsockopt(22, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(22, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+980   socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [23, 24]) = 0
+980   setsockopt(23, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(23, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+980   setsockopt(24, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(24, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+980   socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [25, 26]) = 0
+980   setsockopt(25, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(25, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+980   setsockopt(26, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+980   setsockopt(26, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  getsockname(0, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1005  getsockopt(0, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1005  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1005  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1005  getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1005  getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1005  getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1005  getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1005  getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1005  getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1005  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1005  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1005  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1005  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [27, 28]) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [29, 30]) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [31, 32]) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  shutdown(27, SHUT_WR)             = 0
+1012  getsockname(0, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1012  getsockopt(0, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1012  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1012  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1012  getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1012  getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1012  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1012  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1012  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1012  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1017  +++ exited with 0 +++
+1015  +++ exited with 0 +++
+1016  +++ exited with 0 +++
+1014  +++ exited with 0 +++
+1013  +++ exited with 0 +++
+1018  +++ exited with 0 +++
+1012  +++ exited with 0 +++
+1005  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1012, si_uid=1000, si_status=0, si_utime=3 /* 0.03 s */, si_stime=2 /* 0.02 s */} ---
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [27, 28]) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [29, 30]) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [31, 32]) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  shutdown(27, SHUT_WR)             = 0
+1019  getsockname(0, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1019  getsockopt(0, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1019  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1019  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1019  getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1019  getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1019  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1019  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1019  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1019  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1023  +++ exited with 0 +++
+1021  +++ exited with 0 +++
+1024  +++ exited with 0 +++
+1022  +++ exited with 0 +++
+1020  +++ exited with 0 +++
+1025  +++ exited with 0 +++
+1019  +++ exited with 0 +++
+1005  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1019, si_uid=1000, si_status=0, si_utime=3 /* 0.03 s */, si_stime=1 /* 0.01 s */} ---
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [27, 28]) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [29, 30]) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [31, 32]) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  shutdown(27, SHUT_WR)             = 0
+1026  getsockname(0, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1026  getsockopt(0, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1026  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1026  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1026  getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1026  getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1026  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1026  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1026  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1026  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1030  +++ exited with 0 +++
+1028  +++ exited with 0 +++
+1031  +++ exited with 0 +++
+1029  +++ exited with 0 +++
+1027  +++ exited with 0 +++
+1032  +++ exited with 0 +++
+1026  +++ exited with 0 +++
+1006  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1026, si_uid=1000, si_status=0, si_utime=4 /* 0.04 s */, si_stime=2 /* 0.02 s */} ---
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [27, 28]) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [29, 30]) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [31, 32]) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  shutdown(27, SHUT_WR)             = 0
+1033  getsockname(0, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1033  getsockopt(0, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1033  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1033  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1033  getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1033  getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1033  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1033  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1033  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1033  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1035  +++ exited with 0 +++
+1038  +++ exited with 0 +++
+1037  +++ exited with 0 +++
+1036  +++ exited with 0 +++
+1034  +++ exited with 0 +++
+1039  +++ exited with 0 +++
+1033  +++ exited with 0 +++
+1006  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1033, si_uid=1000, si_status=0, si_utime=4 /* 0.04 s */, si_stime=2 /* 0.02 s */} ---
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [27, 28]) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [29, 30]) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [31, 32]) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  shutdown(27, SHUT_WR)             = 0
+1040  getsockname(0, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1040  getsockopt(0, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1040  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1040  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1040  getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1040  getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1040  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1040  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1040  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1040  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1043  +++ exited with 0 +++
+1044  +++ exited with 0 +++
+1042  +++ exited with 0 +++
+1045  +++ exited with 0 +++
+1041  +++ exited with 0 +++
+1046  +++ exited with 0 +++
+1040  +++ exited with 0 +++
+1006  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1040, si_uid=1000, si_status=0, si_utime=5 /* 0.05 s */, si_stime=1 /* 0.01 s */} ---
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [27, 28]) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(27, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(28, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [29, 30]) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(29, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(30, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  socketpair(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0, [31, 32]) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(31, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_RCVBUF, [65536], 4) = 0
+1005  setsockopt(32, SOL_SOCKET, SO_SNDBUF, [65536], 4) = 0
+1005  shutdown(27, SHUT_WR)             = 0
+1047  getsockname(0, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1047  getsockopt(0, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1047  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1047  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1047  getsockname(2, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1047  getsockopt(2, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1047  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1047  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1047  getsockname(1, {sa_family=AF_UNIX}, [128 => 2]) = 0
+1047  getsockopt(1, SOL_SOCKET, SO_TYPE, [1], [4]) = 0
+1049  +++ exited with 0 +++
+1051  +++ exited with 0 +++
+1050  +++ exited with 0 +++
+1052  +++ exited with 0 +++
+1048  +++ exited with 0 +++
+1053  +++ exited with 0 +++
+1047  +++ exited with 0 +++
+1005  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1047, si_uid=1000, si_status=0, si_utime=3 /* 0.03 s */, si_stime=2 /* 0.02 s */} ---
+1007  +++ exited with 0 +++
+1009  +++ exited with 0 +++
+1008  +++ exited with 0 +++
+1010  +++ exited with 0 +++
+1006  +++ exited with 0 +++
+1011  +++ exited with 0 +++
+1005  +++ exited with 0 +++
+980   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1005, si_uid=1000, si_status=0, si_utime=7 /* 0.07 s */, si_stime=4 /* 0.04 s */} ---
+980   shutdown(25, SHUT_WR)             = 0
+980   shutdown(23, SHUT_WR)             = 0
+984   +++ exited with 0 +++
+982   +++ exited with 0 +++
+983   +++ exited with 0 +++
+985   +++ exited with 0 +++
+981   +++ exited with 0 +++
+980   +++ exited with 0 +++
+978   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=980, si_uid=1000, si_status=0, si_utime=7 /* 0.07 s */, si_stime=1 /* 0.01 s */} ---
+1058  +++ exited with 0 +++
+1056  +++ exited with 0 +++
+1055  +++ exited with 0 +++
+1054  +++ exited with 0 +++
+1057  +++ exited with 0 +++
+1059  +++ exited with 0 +++
+978   +++ exited with 0 +++

@@ -8,6 +8,7 @@
 - [Ham veri](data/README.md)
 - [Kanıtlar](evidence/README.md)
 - [Araçlar](tools/README.md)
+- [Vakit hesaplama doğruluğu (G-007)](07_PRAYER_TIME_ACCURACY.md)
 
 Rakip künyesi, yorum analizi, ekran envanteri, özellik matrisi, dayanıklılık,
 vakit doğruluğu, gizlilik, puan kartı ve PRD belgeleri ilgili görevlerde

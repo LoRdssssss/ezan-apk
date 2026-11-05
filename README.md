@@ -8,6 +8,8 @@ Reklamsız, ücretsiz, Diyanet uyumlu namaz vakti ve ibadet uygulaması (Android
 - Windows test laboratuvarı: [kurulum kılavuzu](research/01_LAB_SETUP.md)
 - İçerik izinleri: [lisans kayıtları](docs/LICENSES.md)
 - Araçlar ve paketler: [üçüncü taraf envanteri](docs/THIRD_PARTY.md)
+- Vakit motoru denemesi: [kod ve kullanım](spikes/prayer-calc/README.md),
+  [Diyanet karşılaştırması](research/07_PRAYER_TIME_ACCURACY.md)
 
 ## Geliştirme durumu
 
