@@ -1,2 +1,7 @@
 node_modules/
 *.log
+**/.gradle/
+**/build/
+**/local.properties
+tools/notif-logger/evidence/
+**/.kotlin/
