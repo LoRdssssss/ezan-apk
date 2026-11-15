@@ -1,0 +1,8 @@
+<resources>
+    <string name="status_format">Dinleyici: %1$s\nBildirim kaydı: %2$s\nMikrofon: %3$s\n\n%4$s</string>
+    <string name="connected">bağlı</string>
+    <string name="disconnected">bağlı değil</string>
+    <string name="enabled">açık</string>
+    <string name="disabled">kapalı</string>
+    <string name="threshold_default" translatable="false">-20</string>
+</resources>

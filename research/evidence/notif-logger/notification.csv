@@ -1,0 +1,2 @@
+"event","package_name","title","post_time_ms","device_time_ms","device_time_iso","elapsed_realtime_ms","zone_id","channel_id","notification_key","sound_uri","vibration_enabled","vibration_pattern_ms","channel_importance","peak_dbfs","threshold_dbfs"
+"notification","dev.ezan.notiflogger","G-002 test 1793561036138","1793561036139","1793561036348","2026-11-01T19:23:56.348Z","46150","Etc/UTC","notif_logger_test","0|dev.ezan.notiflogger|2|null|10148","content://settings/system/notification_sound","false","","3","",""
