@@ -1,4 +1,4 @@
-# AGENTS.md — Codex ve Gemini için çalışma kuralları
+# AGENTS.md — İşçi (Antigravity) için çalışma kuralları
 
 Bu repoda çalışan her ajan bu dosyaya uyar. Ayrıntılı plan: `research/00_MASTER_PLAN.md` + `research/01_PLAN_CHANGES.md`.
 
