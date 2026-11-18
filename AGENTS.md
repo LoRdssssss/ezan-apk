@@ -13,6 +13,8 @@ Bu repoda çalışan her ajan bu dosyaya uyar. Ayrıntılı plan: `research/00_M
 ## İş akışı
 1. İşler GitHub issue olarak açılır (görev kartı). Etiketler: `phase:*`, `critical`, `agent:codex`, `agent:gemini`.
 2. Ajan, kendisine atanmış en düşük numaralı açık issue'yu alır; issue'ya "başladım" yorumu yazar.
+   - Önce CHANGES_REQUESTED almış kendi açık PR'ını düzeltir; yoksa issue alır.
+   - `cihaz` etiketli issue: `adb devices` hiçbir cihaz göstermiyorsa o issue'yu atlar, sıradakine geçer ve issue'ya "cihaz bağlı değil, atlandı" yazar.
 3. Dal: `g-<issue no>-<kısa-ad>`. İş bitince PR açılır; açıklamada `Closes #<no>`.
 4. PR açıklaması şablonu:
    - Ne yapıldı
